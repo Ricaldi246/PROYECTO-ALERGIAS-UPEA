@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberShield Solutions SRL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>CyberShield Solutions SRL</h1>
+<p>Protegiendo el mundo digital</p>
+</header>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#servicios">Servicios</a>
+<a href="#planes">Planes</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+<h2>Bienvenid0</h2>
+<p>Soluciones profesionales en ciberseguridad e infraestructura tecnológica.</p>
+</section>
+
+<section id="nosotros">
+<h2>Nosotros</h2>
+<p>Empresa especializada en protección digital, redes, auditorías y seguridad informática.</p>
+</section>
+
+<section id="misión">
+<h2>misión</h2>
+<p> brindar servicios de ciberseguridad innovadores y confiables que permitan proteger la información, los sistemas y las redes de nuestros clientes frente a amenazas digitales, garantizando la seguridad, confidencialidad e integridad de sus datos.</p>
+</section>
+
+<section id="visión">
+<h2>visión</h2>
+<p> Ser la empresa líder en ciberseguridad en nacional e internacionalmente, reconocida por la excelencia de sus servicios, la innovación tecnológica y el compromiso con la protección digital de organizaciones y personas. </p>
+
+</section>
+
+<section id="servicios">
+
+<h2>Catálogo de Servicios</h2>
+
+<details class="box">
+<summary>🔍 Auditorías de Seguridad</summary>
+<p><b>Básico:</b> Bs. 500 | USD 72</p>
+<ul><li>Diagnóstico de red</li></ul>
+
+<p><b>Profesional:</b> Bs. 1.200 | USD 172</p>
+<ul><li>Análisis de vulnerabilidades</li></ul>
+
+<p><b>Empresarial:</b> Bs. 2.500 | USD 359</p>
+<ul><li>Auditoría completa</li></ul>
+</details>
+
+<details class="box">
+<summary>🛡️ Pentesting</summary>
+<p><b>Básico:</b> Bs. 800 | USD 115</p>
+<ul><li>Escaneo básico</li></ul>
+
+<p><b>Profesional:</b> Bs. 1.800 | USD 259</p>
+<ul><li>Simulación de ataques</li></ul>
+
+<p><b>Premium:</b> Bs. 3.500 | USD 503</p>
+<ul><li>Pentesting completo</li></ul>
+</details>
+
+<details class="box">
+<summary>⚠️ Vulnerabilidades</summary>
+<p><b>Básico:</b> Bs. 400 | USD 57</p>
+<p><b>Profesional:</b> Bs. 1.000 | USD 144</p>
+<p><b>Premium:</b> Bs. 2.000 | USD 287</p>
+</details>
+
+<details class="box">
+<summary>🌐 Redes</summary>
+<p><b>Básico:</b> Bs. 700 | USD 101</p>
+<p><b>Profesional:</b> Bs. 1.500 | USD 216</p>
+<p><b>Premium:</b> Bs. 3.000 | USD 431</p>
+</details>
+
+<details class="box">
+<summary>🎓 Capacitación</summary>
+<p><b>Básico:</b> Bs. 300 | USD 43</p>
+<p><b>Profesional:</b> Bs. 800 | USD 115</p>
+<p><b>Avanzado:</b> Bs. 1.500 | USD 216</p>
+</details>
+
+</section>
+
+<section id="planes">
+
+<h2>Planes Generales</h2>
+
+<details class="box">
+<summary>🥉 Básico</summary>
+<p>Bs. 1.000 | USD 144</p>
+<ul>
+<li>Wi-Fi</li>
+<li>Antivirus</li>
+</ul>
+</details>
+
+<details class="box">
+<summary>🥈 Empresarial</summary>
+<p>Bs. 3.500 | USD 503</p>
+<ul>
+<li>Firewall</li>
+<li>Red segura</li>
+</ul>
+</details>
+
+<details class="box">
+<summary>🥇 Premium</summary>
+<p>Bs. 7.000 | USD 1006</p>
+<ul>
+<li>Protección completa</li>
+<li>Pentesting</li>
+</ul>
+</details>
+
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<p>
+Teléfono / WhatsApp:
+<a href="https://wa.me/59167334715" target="_blank">
++591 67334715 (Escríbenos por WhatsApp)
+<p>Email: ricaldiurijm@gmail.com</p>
+<p>
+Teléfono / WhatsApp:
+<a href="https://wa.me/59172769715" target="_blank">
++591 72769715 (Escríbenos por WhatsApp)
+<p>Email: ricaldiurijm@gmail.com</p>
+</a>
+</p>
+</section>
+
+<footer>
+<p>© 2026 CyberShield Solutions SRL</p>
+</footer>
+
+<script>
+const boxes = document.querySelectorAll(".box");
+
+boxes.forEach(b => {
+b.addEventListener("toggle", () => {
+if (b.open) {
+boxes.forEach(o => {
+if (o !== b) o.open = false;
+});
+}
+});
+});
+</script>
+
+</body>
+</html>
